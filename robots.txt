@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://jaymartins30.github.io/sitemap.xml
+Sitemap: https://jaymartins30.github.io/martins-portfolio/sitemap.xml
+
