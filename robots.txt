@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://jaymartins30.github.io/sitemap.xml

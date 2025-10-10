@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jay Martin's Web | Frontend Developer Portfolio</title>
+  <link rel="icon" type="image/png" href="images/imagess.png" />
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="stylesss.css"  />
+  <link rel="preload" href="stylesss.css" as="style">
+
+  <!-- Basic SEO -->
+<meta name="description" content="Jay Martin’s Web – Portfolio of Martins Edem, a passionate web developer creating fast, modern, and responsive websites with clean design and smooth animations.">
+<meta name="keywords" content="Web Developer, Frontend Developer, HTML, CSS, JavaScript, Portfolio, Martins Edem, Jay Martin's Web, Web Design, SEO Optimization, Nigeria">
+<meta name="author" content="Martins Edem">
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph (for Facebook, LinkedIn) -->
+<meta property="og:title" content="Jay Martin’s Web | Portfolio of Martins Edem">
+<meta property="og:description" content="Explore projects, services, and creative web design by Martins Edem. Building fast, modern websites.">
+<meta property="og:image" content="https://jaymartins30.github.io/images/landingpage.jpg">
+<meta property="og:url" content="https://jaymartins30.github.io/">
+<meta property="og:type" content="website">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Jay Martin’s Web | Portfolio">
+<meta name="twitter:description" content="Martins Edem – Web Developer crafting modern websites.">
+<meta name="twitter:image" content="https://jaymartins30.github.io/images/landingpage.jpg">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Martins Edem",
+  "jobTitle": "Web Developer",
+  "url": "https://jaymartins30.github.io/",
+  "image": "https://jaymartins30.github.io/images/landingpage.jpg",
+  "sameAs": [
+    "https://www.facebook.com/MartinsEdem",
+    "https://wa.me/2347012239295",
+    "https://github.com/jaymartins30"
+  ],
+  "description": "Martins Edem, also known as Jay Martin’s Web, creates fast, responsive websites with creative UI design and SEO optimization."
+}
+</script>
+
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">
+      <h1>JAY MARTIN'S <span class="accent">WEB</span></h1>
+    </div>
+    <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#Services">Services</a></li>
+      <li><a href="#Projects">Porfolio</a></li>
+      <li><a href="#Contact">Contact</a></li>
+    </ul>
+  </nav>
+   <main>
+    <section class="Home" id="home">
+  <div class="home-content">
+    <div class="home-text">
+      <h2>Hello, I'm <span class="accent">Martins Edem</span></h2>
+      <p>
+        A passionate Web Developer based in Akwa ibom, Nigeria - crafting beautiful, responsive, and high-performance websites.
+        I specialize in modern front-end technologies, animations, and creative digital experiences.
+      </p>
+      <a href="#Projects" class="btns">View My Work</a>
+    </div>
+
+    <div class="home-image">
+      <img src="images/landingpage.jpg" alt="Martins Edem - Web Developer" loading="lazy">
+      <link rel="preload" href="images/landingpage.jpg" as="image">
+    </div>
+  </div>
+</section>
+
+
+  <!-- Services -->
+  <section class="Services" id="Services">
+    <h2>Services</h2>
+    <div class="service-grid">
+      <div class="service-card slide-up">
+        <i class="fa-solid fa-code"></i>
+        <h3>Web Development</h3>
+        <p>Transforming your ideas into responsive, fast, and modern websites using HTML, CSS, and JavaScript.</p>
+      </div>
+
+      <div class="service-card slide-up">
+        <i class="fa-solid fa-palette"></i>
+        <h3>Web Design</h3>
+        <p>Designing visually appealing and user-friendly interfaces focused on simplicity and clarity.</p>
+      </div>
+
+      <div class="service-card slide-up">
+        <i class="fa-solid fa-chart-line"></i>
+        <h3>SEO Optimization</h3>
+        <p>Boost your online visibility with smart SEO strategies - from keyword research to high-performance - helping your website rank higer and reach the right audience.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="Projects" id="Projects">
+    <h2>Past Projects</h2>
+    <div class="project-grid">
+      <div class="project-card fade-in">
+        <a href="https://bodybloom.vercel.app" target="_blank">
+          <img src="images/bodybloom.png" alt="BodyBloom Project" loading="lazy"/>
+          <div class="project-info">
+            <h3>BodyBloom Protein Blend</h3>
+            <p>
+              A wellness eCommerce site designed to highlight health products with elegant visuals and a seamless user experience.
+            </p>
+          </div>
+        </a>
+      </div>
+
+      <div class="project-card fade-in">
+        <a href="https://jaymartins30.github.io/Martins-Hub/" target="_blank">
+          <img src="images/martinshub.png" alt="Martin's Hub Project" loading="lazy" />
+          <div class="project-info">
+            <h3>Martin’s Hub</h3>
+            <p>
+              A professional landing page showcasing coding services, responsive design, and effective call-to-action structure.
+            </p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="Contact" id="Contact">
+    <h2>Get In Touch</h2>
+    <form
+      action="https://formsubmit.co/martinsedem200@gmail.com"
+      method="POST"
+      class="contact-form fade-in"
+    >
+       <input type="hidden" name="_next" value="https://jaymartins30.github.io/thankyou.html">
+       <input type="hidden" name="_captcha" value="false">
+
+
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+   </main>
+  <!-- Footer -->
+  <footer class="footer">
+    <h3>Connect With Me</h3>
+    <h2>MARTINS EDEM | Akwaibom State.
+    </h2>
+    <a href="tel:+2349165767752" class="call">09165767752</a>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/MartinsEdem" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="#" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="https://wa.me/2347012239295" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+    <p>@<span id="year"></span> <strong>Jay Martin’s Web</strong> | Designed with 💙 and Code.</p>
+  </footer>
+
+  <button id="backToTop" title="Go to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- JavaScript -->
+  <script>
+    const menuToggle = document.querySelector(".menu-toggle");
+    const navLinks = document.querySelector(".nav-links");
+
+    menuToggle.addEventListener("click", () => {
+      navLinks.classList.toggle("active");
+    });
+
+    // Animation on scroll
+    const fadeElements = document.querySelectorAll(".fade-in, .slide-up");
+    window.addEventListener("scroll", () => {
+      fadeElements.forEach(el => {
+        const position = el.getBoundingClientRect().top;
+        if (position < window.innerHeight - 100) {
+          el.classList.add("visible");
+        }
+      });
+    });
+
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+      // Get button
+const backToTop = document.getElementById("backToTop");
+
+// Show button after scrolling down
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 300) {
+    backToTop.style.display = "block";
+  } else {
+    backToTop.style.display = "none";
+  }
+});
+
+// Smooth scroll back to top
+backToTop.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+});
+  </script>
+</body>
+</html>
