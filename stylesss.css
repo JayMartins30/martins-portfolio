@@ -319,7 +319,7 @@ body {
 
 @media screen and (min-width: 900px) {
   .project-grid {
-    grid-template-columns: repeat(2, 300px); /* fixed 2 columns */
+    grid-template-columns: repeat(2, 370px); /* fixed 2 columns */
     justify-content: center; /* keep grid centered */
   }
 }
@@ -476,6 +476,7 @@ body {
     height: 50vh;
   }
 }
+
 
 
 
