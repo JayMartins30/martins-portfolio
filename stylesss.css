@@ -214,6 +214,13 @@ body {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   transition: transform 0.4s ease, box-shadow 0.3s;
   margin-top: 2rem;
+  animation: float 1.8s infinite ease-in-out;
+}
+
+@keyframes float {
+  0% {transform: translateY(0);}
+  50%{transform: translateY(-6px);}
+  100%{transform: translateY(0);}
 }
 
 .home-image img:hover {
@@ -463,6 +470,7 @@ body {
     height: 50vh;
   }
 }
+
 
 
 
